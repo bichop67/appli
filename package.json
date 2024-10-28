@@ -1,0 +1,31 @@
+{
+  "name": "soirees-entrepreneuriales-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "setup-nativescript-stackblitz && ns preview",
+    "android": "ns run android",
+    "ios": "ns run ios"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.1.0",
+    "@nativescript/core": "~8.6.0",
+    "@nativescript/theme": "~3.0.2",
+    "@react-native-community/datetimepicker": "^7.6.2",
+    "@supabase/supabase-js": "^2.39.7",
+    "framer-motion": "^11.0.8",
+    "jotai": "^2.7.0",
+    "react": "^18.3.1",
+    "react-nativescript": "^5.0.0",
+    "react-nativescript-navigation": "^5.0.0"
+  },
+  "devDependencies": {
+    "@nativescript/android": "8.6.2",
+    "@nativescript/ios": "8.6.1",
+    "@nativescript/types": "~8.6.0",
+    "@nativescript/webpack": "~5.0.18",
+    "typescript": "^5.5.3"
+  },
+  "main": "src/app.ts"
+}
